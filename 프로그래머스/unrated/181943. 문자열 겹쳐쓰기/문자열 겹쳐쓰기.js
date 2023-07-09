@@ -1,0 +1,7 @@
+function solution(my_string, overwrite_string, s) {
+    let answer = [];
+    my_string = my_string.split("");
+    my_string.splice(s, overwrite_string.length, overwrite_string);
+    answer = my_string.join("");
+    return answer;
+}
