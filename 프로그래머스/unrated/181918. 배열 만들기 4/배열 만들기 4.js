@@ -27,6 +27,6 @@ function solution(arr) {
       }
       stk.push(arr[i]);
     }
-  }
+  } 
   return stk;
 }
