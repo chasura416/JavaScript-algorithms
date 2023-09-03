@@ -4,6 +4,6 @@ function solution(a, d, included) {
         if(included[i] === true) {
             answer += (a + (i*d));
         }
-    }
+    } 
     return answer;
 }
