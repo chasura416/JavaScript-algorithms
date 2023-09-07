@@ -35,7 +35,7 @@ int main() {
 		sum += (A[i] * B[i]);
 	}
 
-	printf("%d\n", sum);
+	printf("%d\n", sum); 
 
 	return 0;
 }
