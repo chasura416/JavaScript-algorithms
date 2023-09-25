@@ -11,6 +11,6 @@ function solution(ineq, eq, n, m) {
     }
     else if(ineq === "<" && eq === "!")  {
         answer = n < m ? 1 : 0;
-    }
+    } 
     return answer;
 }
